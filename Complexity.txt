@@ -1,0 +1,533 @@
+Mean per-function logical LOC: 4.279999999999999
+Mean per-function parameter count: 0.7733333333333334
+Mean per-function cyclomatic complexity: 1.1733333333333333
+Mean per-function Halstead effort: 1265.887704499475
+Mean per-module maintainability index: 132.0528462009076
+First-order density: 0%
+Change cost: 20%
+Core size: 0%
+
+D:\bitbucket\monitoring-db-api\db\Sales.js
+
+  Physical LOC: 85
+  Logical LOC: 43
+  Mean parameter count: 1
+  Cyclomatic complexity: 5
+  Cyclomatic complexity density: 11.627906976744185%
+  Maintainability index: 147.45099287099663
+  Dependency count: 2
+
+  Function: createPetSales
+    Line No.: 6
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+  Function: getAllPetSales
+    Line No.: 11
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getPetSalesInRange
+    Line No.: 15
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getPetSales
+    Line No.: 22
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updatePetSales
+    Line No.: 27
+    Physical LOC: 5
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 3
+    Cyclomatic complexity density: 150%
+    Halstead difficulty: 7.111111111111111
+    Halstead volume: 122.6238852375102
+    Halstead effort: 871.9920728000725
+
+  Function: deletePetSales
+    Line No.: 34
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+  Function: createProductSales
+    Line No.: 40
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+  Function: getAllProductSales
+    Line No.: 45
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getProductSalesInRange
+    Line No.: 49
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getProductSales
+    Line No.: 56
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updateProductSales
+    Line No.: 61
+    Physical LOC: 5
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 3
+    Cyclomatic complexity density: 150%
+    Halstead difficulty: 7
+    Halstead volume: 117.20671786825557
+    Halstead effort: 820.447025077789
+
+  Function: deleteProductSales
+    Line No.: 68
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+D:\bitbucket\monitoring-db-api\db\TimeRangeHelper.js
+
+  Physical LOC: 21
+  Logical LOC: 12
+  Mean parameter count: 1
+  Cyclomatic complexity: 1
+  Cyclomatic complexity density: 8.333333333333332%
+  Maintainability index: 106.24011840047437
+  Dependency count: 0
+
+  Function: createUnixDateRange
+    Line No.: 1
+    Physical LOC: 17
+    Logical LOC: 9
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 11.11111111111111%
+    Halstead difficulty: 13.4375
+    Halstead volume: 376.0351774512874
+    Halstead effort: 5052.9726970016745
+
+D:\bitbucket\monitoring-db-api\db\Usage.js
+
+  Physical LOC: 106
+  Logical LOC: 50
+  Mean parameter count: 0.9333333333333333
+  Cyclomatic complexity: 5
+  Cyclomatic complexity density: 10%
+  Maintainability index: 145.5230887898656
+  Dependency count: 2
+
+  Function: createSession
+    Line No.: 6
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+  Function: getAllSessions
+    Line No.: 11
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getSessionsInRange
+    Line No.: 15
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getSession
+    Line No.: 22
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updateSession
+    Line No.: 27
+    Physical LOC: 5
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 3
+    Cyclomatic complexity density: 150%
+    Halstead difficulty: 7
+    Halstead volume: 117.20671786825557
+    Halstead effort: 820.447025077789
+
+  Function: deleteSession
+    Line No.: 34
+    Physical LOC: 10
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3
+    Halstead volume: 93.76537429460444
+    Halstead effort: 281.2961228838133
+
+  Function: <anonymous>
+    Line No.: 38
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 38.03910001730775
+    Halstead effort: 57.058650025961626
+
+  Function: createPagesViewed
+    Line No.: 47
+    Physical LOC: 11
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.333333333333333
+    Halstead volume: 87.56916320732489
+    Halstead effort: 291.89721069108293
+
+  Function: <anonymous>
+    Line No.: 51
+    Physical LOC: 4
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 2
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 2.7777777777777777
+    Halstead volume: 72.33974351909447
+    Halstead effort: 200.94373199748463
+
+  Function: getAllPagesViewed
+    Line No.: 60
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getPagesViewedInRange
+    Line No.: 64
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getPagesViewed
+    Line No.: 71
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updatePagesViewed
+    Line No.: 76
+    Physical LOC: 11
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.25
+    Halstead volume: 93.76537429460444
+    Halstead effort: 304.73746645746445
+
+  Function: <anonymous>
+    Line No.: 80
+    Physical LOC: 4
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 2
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 2.9545454545454546
+    Halstead volume: 96
+    Halstead effort: 283.6363636363636
+
+  Function: deletePagesViewed
+    Line No.: 89
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+D:\bitbucket\monitoring-db-api\db\Users.js
+
+  Physical LOC: 107
+  Logical LOC: 50
+  Mean parameter count: 0.9333333333333333
+  Cyclomatic complexity: 5
+  Cyclomatic complexity density: 10%
+  Maintainability index: 145.5230887898656
+  Dependency count: 2
+
+  Function: createRegisteredUser
+    Line No.: 7
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+  Function: getAllRegisteredUsers
+    Line No.: 12
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getRegisteredUsersInRange
+    Line No.: 16
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getRegisteredUser
+    Line No.: 23
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updateRegisteredUser
+    Line No.: 28
+    Physical LOC: 5
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 3
+    Cyclomatic complexity density: 150%
+    Halstead difficulty: 7
+    Halstead volume: 117.20671786825557
+    Halstead effort: 820.447025077789
+
+  Function: deleteRegisteredUser
+    Line No.: 35
+    Physical LOC: 10
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3
+    Halstead volume: 93.76537429460444
+    Halstead effort: 281.2961228838133
+
+  Function: <anonymous>
+    Line No.: 39
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 38.03910001730775
+    Halstead effort: 57.058650025961626
+
+  Function: createOnlineUser
+    Line No.: 48
+    Physical LOC: 11
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.333333333333333
+    Halstead volume: 87.56916320732489
+    Halstead effort: 291.89721069108293
+
+  Function: <anonymous>
+    Line No.: 52
+    Physical LOC: 4
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 2
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 2.7777777777777777
+    Halstead volume: 72.33974351909447
+    Halstead effort: 200.94373199748463
+
+  Function: getAllOnlineUsers
+    Line No.: 61
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 0
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.5
+    Halstead volume: 22.458839376460833
+    Halstead effort: 33.68825906469125
+
+  Function: getOnlineUsersInRange
+    Line No.: 65
+    Physical LOC: 6
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.269230769230769
+    Halstead volume: 120.92782504182705
+    Halstead effort: 395.34096648289614
+
+  Function: getOnlineUser
+    Line No.: 72
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.7999999999999998
+    Halstead volume: 30
+    Halstead effort: 53.99999999999999
+
+  Function: updateOnlineUser
+    Line No.: 77
+    Physical LOC: 11
+    Logical LOC: 2
+    Parameter count: 2
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 3.25
+    Halstead volume: 93.76537429460444
+    Halstead effort: 304.73746645746445
+
+  Function: <anonymous>
+    Line No.: 81
+    Physical LOC: 4
+    Logical LOC: 2
+    Parameter count: 1
+    Cyclomatic complexity: 2
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 2.9545454545454546
+    Halstead volume: 96
+    Halstead effort: 283.6363636363636
+
+  Function: deleteOnlineUser
+    Line No.: 90
+    Physical LOC: 3
+    Logical LOC: 1
+    Parameter count: 1
+    Cyclomatic complexity: 1
+    Cyclomatic complexity density: 100%
+    Halstead difficulty: 1.75
+    Halstead volume: 41.20902501875006
+    Halstead effort: 72.1157937828126
+
+D:\bitbucket\monitoring-db-api\db\knex.js
+
+  Physical LOC: 11
+  Logical LOC: 8
+  Mean parameter count: 0
+  Cyclomatic complexity: 1
+  Cyclomatic complexity density: 12.5%
+  Maintainability index: 115.52694215333582
+  Dependency count: 1
+
+
